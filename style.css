@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --azuilEscuro: #111827;
+    --backgColor: #314D5A;
+    --corCinza: #faebd7;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--backgColor);
+}
+
+
+
+.caixa-login {
+    background-color: var(--corCinza);
+    width: 740px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 23px;
+}
+
+.caixa-login #login {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-backg {
+    background-image: url(/imgs/back-vertical-natreza.jpg);
+}
+
+.img-estilo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    border-radius: 40px 20px 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+form {
+    width: 80%;
+    align-items: center;
+}
+
+form h1 {
+    font-size: 38px;
+}
+
+form input {
+    margin: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #D5B8A8;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+form input[type='submit'] {
+    width: 100%;
+    cursor: pointer;
+}
+
+form a {
+    color: #314D5A;
+    font-size: 14px;
+}
+
+.btn-links img {
+    width: 34px;
+}
+
+.btn-links button {
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    margin: 4px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
